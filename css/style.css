@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalho h1 {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    height: 10px;
+    display: flex;
+    margin-right: 50px;
+    padding: 20px 0 0 30px;
+}
+
+.info {
+    margin-left: 92rem;
+    word-spacing: 4rem;
+}
+
+.info a {
+    color: rgb(243, 243, 243);
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.inicio h1.mensagem-inicial {
+    color: darkviolet;
+    font-size: 58px;
+}
+
+.inicio {
+    padding: 20rem 0 388px 2.3rem;
+    background: url('https://files.tecnoblog.net/wp-content/uploads/2022/05/cnh_capa-1_tb.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.inicio h1 {
+    font-size: 47px;
+}
+
+.sobre {
+    background-color: crimson;
+    padding: 4rem 4rem 6rem 4rem;
+}
+
+.sobre h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    color: white;
+}
+
+.sobre p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.requisitos {
+    background-color: #333;
+    padding: 4rem 4rem 6rem 4rem;
+}
+
+.requisitos h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    color: white;
+}
+
+.requisitos h2 {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.requisitos li {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.passo-a-passo{
+    background-color: gray;
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+/* section 1 */
+#section1 .box {
+    padding: 2em;
+    color: #ffffff;
+}
+
+#section1 .box:first-child {
+    background: #333;
+    color: white;
+}
+
+#section1 .box:first-child h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#section1 .box:first-child h2 {
+    padding-bottom: 10px;
+}
+
+#section1 .box:first-child p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#section1 .box:first-child a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+#section1 .box:last-child {
+    background: white;
+    color: #333;
+}
+
+#section1 .box:last-child h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#section1 .box:last-child h2 {
+    padding-bottom: 10px;
+}
+
+#section1 .box:last-child p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+/* section 2 */
+#section2 .box {
+    padding: 2em;
+    color: #ffffff;
+}
+
+#section2 .box:first-child {
+    background: white;
+    color: #333;
+}
+
+#section2 .box:first-child h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#section2 .box:first-child h2 {
+    padding-bottom: 10px;
+}
+
+#section2 .box:first-child p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#section2 .box:last-child {
+    background: #333;
+    color: white;
+}
+
+#section2 .box:last-child h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#section2 .box:last-child h2 {
+    padding-bottom: 10px;
+}
+
+#section2 .box:last-child p {
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+#section2 .box:last-child a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+/* section 3 */
+#section3 .box {
+    padding: 2em;
+    color: #ffffff;
+}
+
+#section3 .box:first-child {
+    background: #333;
+    color: white;
+}
+
+#section3 .box:first-child h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#section3 .box:first-child h2 {
+    padding-bottom: 10px;
+}
+
+#section3 .box:first-child p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#section3 .box:last-child {
+    background: white;
+    color: #333;
+}
+
+#section3 .box:last-child h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#section3 .box:last-child h2 {
+    padding-bottom: 10px;
+}
+
+#section3 .box:last-child p {
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+#section3 .box:last-child a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+@media (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .box,
+    #main-footer div {
+        grid-column: span 2;
+    }
+
+    
+}
